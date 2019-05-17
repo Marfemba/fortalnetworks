@@ -1,0 +1,118 @@
+* {margin: 0; padding: 0; list-style: none;}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    margin-left: 150px;
+    margin-right: 150px;   
+}
+.img-1 img{
+    width: 450px;
+    height: 250px;
+}
+
+.cabecalho {
+    display: flex;
+    border-bottom: 2px solid  #2e0000;
+    margin-top: -20px;     
+}
+
+
+.logo {
+    margin-right: auto;
+  
+}
+.uls li{
+    color: brown;
+    display: inline;
+}
+.uls li a{
+    text-decoration: none;
+    color: #2e0000;
+    font-size: 12px;
+}
+
+.uls li a:hover{
+    color: red
+}
+
+.cabecalho .uls  {
+    margin-top: 85px;
+    /* margin-left: 100px; */
+    float: left;   
+}
+.cabecalho .uls  ul{
+    float: right;
+}
+.logo img{
+    width: 400px;
+    margin-top: 32px;
+    height: auto;
+}
+.segundo{
+    margin-left: 150px;
+    margin-right: 150px;
+    position: relative;
+   
+}
+/* .segundo img {
+    left: 30%;
+    right: 50%;
+    width: 70%;
+    position: absolute;
+} */
+.terceiro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: flex-start;
+    margin-left: 150px;
+    margin-right: 150px;
+
+    
+}
+.div3-imagens{
+    align-content: flex-start
+
+}
+.segundo img {
+    margin-left: 22%
+}
+.texto {
+    left: 1%;
+    position: absolute;
+    top: 7%; 
+    width: 100%;
+    /* transform: translate(-50%, -50%); */
+    
+  }
+  .texto h2 {
+    margin-top: 2%;
+    color: chocolate
+}
+.texto h4  {
+    margin-top: 2%;
+}
+.texto h6 {
+    margin-top: 2%;
+}
+/* .segundo img {
+    display: inline;
+} */
+
+.rodape{
+    width: 100%;
+    background-color: brown;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+    
+}
+.rodape h6{
+    color: blanchedalmond;
+    text-align: center
+    
+
+}
